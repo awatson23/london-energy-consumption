@@ -2,6 +2,7 @@ name: Deploy London Energy Consumption project
 on:
   push:
     branches:
+      - geo-json
       - main
 
 jobs:
