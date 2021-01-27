@@ -1,9 +1,9 @@
 import React from "react";
+import KeplerGl from "kepler.gl";
 import keplerGlReducer from "kepler.gl/reducers";
 import { createStore, combineReducers, applyMiddleware } from "redux";
 import { taskMiddleware } from "react-palm/tasks";
 import { Provider, useDispatch } from "react-redux";
-import KeplerGl from "kepler.gl";
 import { addDataToMap } from "kepler.gl/actions";
 import KeplerGlSchema from 'kepler.gl/schemas';
 import useSwr from "swr";
