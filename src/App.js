@@ -7,7 +7,7 @@ import KeplerGl from "kepler.gl";
 import { addDataToMap } from "kepler.gl/actions";
 import KeplerGlSchema from 'kepler.gl/schemas';
 import useSwr from "swr";
-import datajson from './keplergl.json';
+import datajson from '/keplergl.json';
 
 const reducers = combineReducers({
     keplerGl: keplerGlReducer
