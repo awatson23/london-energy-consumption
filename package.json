@@ -1,6 +1,8 @@
 {
     "name": "london-energy-consumption",
-    "version": "1.0.0",
+    "version": "1.0.0", 
+    "homepage": "/london-energy-consumption",
+    "private": true,
     "description": "D3.js Data Visualization for London Energy Consumption",
     "dependencies": {
         "@testing-library/jest-dom": "^4.2.4",
